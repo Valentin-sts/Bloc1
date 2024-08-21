@@ -13,3 +13,6 @@
 | :--------------- |:---------------:| -----:|
 | GET              |   Visible dans l'URL   |  Moins sécurisé (données dans l'URL) |
 |Post              | Caché dans le corps de la requête |   Plus sécurisé (données dans le corps) |
+
+
+https://www.ionos.fr/digitalguide/sites-internet/developpement-web/get-vs-post/
