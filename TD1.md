@@ -4,6 +4,7 @@
   
     ## Méthode GET
 	 - La méthode GET envoie les données via l'URL sous forme de paramètres de requête.
+   	- La méthode POST passe les paramètres dans le corps de la requête.
 
 
 
