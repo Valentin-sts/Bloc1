@@ -9,10 +9,10 @@
 
 
 
- | Methode         | Visibilité des données | Sécurité | 
+ | Methode         | Visibilité des données | Sécurité | longueur de données |
 | :--------------- |:---------------:| -----:|
-| GET              |   Visible dans l'URL   |  Moins sécurisé (données dans l'URL) |
-|Post              | Caché dans le corps de la requête |   Plus sécurisé (données dans le corps) |
+| GET              |   Visible dans l'URL   |  Moins sécurisé (données dans l'URL) | Limitée - longueur maximale de l’URL à 2 048 caractères. |
+|Post              | Caché dans le corps de la requête |   Plus sécurisé (données dans le corps) | Illimitée. |
 
 
 https://www.ionos.fr/digitalguide/sites-internet/developpement-web/get-vs-post/
