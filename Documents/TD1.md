@@ -1,12 +1,12 @@
-#1 - Méthodes GET et POST
+# 1 - Méthodes GET et POST
 
  	# Différences entre les méthodes HTTP GET et POST
   
-    ## Differéntes Méthodes:
+#### Differéntes Méthodes:
 	 - La méthode GET envoie les données via l'URL sous forme de paramètres de requête.  
    	 - La méthode POST passe les paramètres dans le corps de la requête.
 
-#2 – Comparaison méthodes
+# 2 – Comparaison méthodes
 
  | Methode         | Visibilité des données | Sécurité | longueur de données | Cache et fichier log du serveur |
 | :--------------- |:---------------:| :----------:| :---------:| :---------:| 
@@ -16,7 +16,11 @@
 
 https://www.ionos.fr/digitalguide/sites-internet/developpement-web/get-vs-post/
 
-#3 -Extensible
+# 3 -Extensible
 
-	## Le protocole HTTP est extensible grâce à sa structure basée sur des en-têtes, 
+#### Le protocole HTTP est extensible grâce à sa structure basée sur des en-têtes, 
  	les en-têtes permettent d'ajouter des fonctionnalités et des informations supplémentaires sans modifier le protocole de base
+
+  # 4 - Sans état
+
+#### HTTP est qualifié de protocole sans état car chaque requête est indépendante et le serveur ne conserve aucune information d'une requête à l'autre, ce qui nécessite l'utilisation de cookies pour maintenir la continuité de la navigation
