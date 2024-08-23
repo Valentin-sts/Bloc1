@@ -49,3 +49,20 @@ https://www.ionos.fr/digitalguide/sites-internet/developpement-web/get-vs-post/
 			
 # 7 – Négociation de contenu
 	## La négocition de contenu HTTP est un processus ou le client, comme un navigateur web envoie une requête au serveur en précisant ses préférences pour le type de contenue qu'il veut reçevoir. Le serveur choisi ces ressources pour envoyer la meilleur version de la ressource qui correspond le mieux au client.
+
+
+
+
+
+
+# 10 – Headers
+
+| **En-tête HTTP**      | **Rôle**                                                                                         | **Exemple**                              |
+|-----------------------|--------------------------------------------------------------------------------------------------|------------------------------------------|
+| `Host`                | Indique le nom de domaine du serveur auquel la requête est envoyée.                               | `Host: www.example.com`                  |
+| `User-Agent`          | Identifie le client qui fait la requête (navigateur, application).                                | `User-Agent: Mozilla/5.0`                |
+| `Accept`              | Spécifie les formats de contenu que le client peut traiter.                                       | `Accept: text/html, application/json`    |
+| `Authorization`       | Contient les informations d'authentification pour accéder à une ressource protégée.               | `Authorization: Basic dXNlcjpwYXNz`      |
+| `Content-Type`        | Indique le type de contenu envoyé au serveur (pour les requêtes POST/PUT).                        | `Content-Type: application/json`         |
+| `Cookie`              | Envoie les cookies stockés sur le client au serveur.                                              | `Cookie: sessionId=abc123`               |
+| `Referer`             | Indique l'URL de la page qui a conduit le client à faire cette requête.                           | `Referer: https://www.google.com/`       |
