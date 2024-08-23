@@ -30,4 +30,4 @@ https://www.ionos.fr/digitalguide/sites-internet/developpement-web/get-vs-post/
 
 	## Le protocole HTTP est extensible grâce à sa structure basée sur des en-têtes, les en-têtes permettent d'ajouter des fonctionnalités et des informations supplémentaires sans modifier le protocole de base
 
-
+# 6 - Codes Status
