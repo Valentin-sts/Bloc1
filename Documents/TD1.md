@@ -46,3 +46,6 @@ https://www.ionos.fr/digitalguide/sites-internet/developpement-web/get-vs-post/
 			
 	 ## 5xx -Server error: Le serveur a rencontré une erreur ou ne peut pas répondre
 			Exemple: 500 Internal Server Error---> Le serveur a rencontré une condition inattendue qui l'empêche de répondre à la requete
+			
+# 7 – Négociation de contenu
+	## La négocition de contenu HTTP est un processus ou le client, comme un navigateur web envoie une requête au serveur en précisant ses préférences pour le type de contenue qu'il veut reçevoir. Le serveur choisi ces ressources pour envoyer la meilleur version de la ressource qui correspond le mieux au client.
