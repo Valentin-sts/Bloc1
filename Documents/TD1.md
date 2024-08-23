@@ -35,7 +35,7 @@ https://www.ionos.fr/digitalguide/sites-internet/developpement-web/get-vs-post/
 	 ## 1xx -Informational : Le serveur a reçu la requête et continue à la traiter
 			Exemple: 100 Continue ---> Le client peut continuer à envoyer le reste de la requête.
 			
-	 ##2xx -Success : La requête a été reçue, comprise et acceptée avec succès
+	 ## 2xx -Success : La requête a été reçue, comprise et acceptée avec succès
 			Exemple: 200 OK---> La requete a réussi et le serveur retourne la ressource demandée
 			
 	 ## 3xx -Redirection : Le client doit effectuer une action supplémentaires pour completer la requête
