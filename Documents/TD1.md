@@ -31,3 +31,18 @@ https://www.ionos.fr/digitalguide/sites-internet/developpement-web/get-vs-post/
 	## Le protocole HTTP est extensible grâce à sa structure basée sur des en-têtes, les en-têtes permettent d'ajouter des fonctionnalités et des informations supplémentaires sans modifier le protocole de base
 
 # 6 - Codes Status
+     
+	 ## 1xx -Informational : Le serveur a reçu la requête et continue à la traiter
+			Exemple: 100 Continue ---> Le client peut continuer à envoyer le reste de la requête.
+			
+	 ##	2xx -Success : La requête a été reçue, comprise et acceptée avec succès
+			Exemple: 200 OK---> La requete a réussi et le serveur retourne la ressource demandée
+			
+	 ## 3xx -Redirection : Le client doit effectuer une action supplémentaires pour completer la requête
+			Exemple: 301 Moved Permanently---> La ressource demandée a été déplacée de façcon permanente vers une nouvelle URL
+			
+	 ## 4xx -Client error : La requête contient une erreur ou ne peut pas répondre
+			Exemple: 404 Not Found---> Le serveur ne trouve pas la ressource demandée
+			
+	 ## 5xx -Server error: Le serveur a rencontré une erreur ou ne peut pas répondre
+			Exemple: 500 Internal Server Error---> Le serveur a rencontré une condition inattendue qui l'empêche de répondre à la requete
