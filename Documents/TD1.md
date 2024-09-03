@@ -66,3 +66,5 @@ https://www.ionos.fr/digitalguide/sites-internet/developpement-web/get-vs-post/
 | `Content-Type`        | Indique le type de contenu envoyé au serveur (pour les requêtes POST/PUT).                        | `Content-Type: application/json`         |
 | `Cookie`              | Envoie les cookies stockés sur le client au serveur.                                              | `Cookie: sessionId=abc123`               |
 | `Referer`             | Indique l'URL de la page qui a conduit le client à faire cette requête.                           | `Referer: https://www.google.com/`       |
+
+http://dev.local
