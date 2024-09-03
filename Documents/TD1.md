@@ -20,15 +20,18 @@ https://www.ionos.fr/digitalguide/sites-internet/developpement-web/get-vs-post/
 # 3 -Extensible
 
 
-	## Le protocole HTTP est extensible grâce à sa structure basée sur des en-têtes, les en-têtes permettent d'ajouter des fonctionnalités et des informations supplémentaires sans modifier le protocole de base
+	## Le protocole HTTP est extensible grâce à sa structure basée sur des en-têtes, les en-têtes permettent d'ajouter 
+ 	des fonctionnalités et des informations supplémentaires sans modifier le protocole de base
 	
 # 4 - Sans état
 
-	## HTTP est qualifié de protocole sans état car chaque requête est indépendante et le serveur ne conserve aucune information d'une requête à l'autre, ce qui nécessite l'utilisation de cookies pour maintenir la continuité de la navigation
+	## HTTP est qualifié de protocole sans état car chaque requête est indépendante et le serveur ne conserve aucune 
+ 	information d'une requête à l'autre, ce qui nécessite l'utilisation de cookies pour maintenir la continuité de la navigation
 
 # 5 – URL
 
-	## Le protocole HTTP est extensible grâce à sa structure basée sur des en-têtes, les en-têtes permettent d'ajouter des fonctionnalités et des informations supplémentaires sans modifier le protocole de base
+	## Le protocole HTTP est extensible grâce à sa structure basée sur des en-têtes, les en-têtes permettent d'ajouter 
+ 	des fonctionnalités et des informations supplémentaires sans modifier le protocole de base
 
 # 6 - Codes Status
      
@@ -48,7 +51,9 @@ https://www.ionos.fr/digitalguide/sites-internet/developpement-web/get-vs-post/
 			Exemple: 500 Internal Server Error---> Le serveur a rencontré une condition inattendue qui l'empêche de répondre à la requete
 			
 # 7 – Négociation de contenu
-	## La négocition de contenu HTTP est un processus ou le client, comme un navigateur web envoie une requête au serveur en précisant ses préférences pour le type de contenue qu'il veut reçevoir. Le serveur choisi ces ressources pour envoyer la meilleur version de la ressource qui correspond le mieux au client.
+	## La négocition de contenu HTTP est un processus ou le client, comme un navigateur web envoie une requête au serveur en 
+ 	précisant ses préférences pour le type de contenue qu'il veut reçevoir. Le serveur choisi ces ressources pour envoyer la 
+  	meilleur version de la ressource qui correspond le mieux au client.
 
 
 
