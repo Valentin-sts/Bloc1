@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(255, 255, 255);
+    color:black;
+    font-family : 'Trebuchet MS', sans-serif;
+    margin-right: 40%;
+    margin-left:5%; 
+}
+    
+    
+
+p {
+    background-color: rgb(247, 247, 247);
+    text-align: justify;
+    margin-left:5%;
+    margin-right: 40%;
+}
+.BoxCentre {
+    background-color: rgb(247, 247, 247);
+    text-align: justify;
+    margin-left:5%;
+    margin-right: 40%;
+}
+
+.Orange {
+    color:lightcoral;
+    
+}
+
+.box {
+    background-color: rgb(247, 247, 247);
+    text-align: justify;
+    margin-left:2%;
+    margin-right: 40%;
+}
+.line{
+    height: 1px;
+    background: black;
+    margin-left:5%;
+    margin-right: 40%;
+}
