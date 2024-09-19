@@ -1,17 +1,17 @@
 body {
     margin-left: 250px;
     margin-right: 250px;
-    font-family: 'Trebuchet MS', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 
 h1 {
-    color: #000000;
+    color: #444444;
     font-weight:bold;
 }
 
 h2 {
-    color:green;
+    color:#3d771e;
     text-decoration: underline;
 }
 
@@ -31,5 +31,5 @@ ul {
 }
 
 a {
-    color: rgb(65, 115, 252);
+    color: #77ccf3;
 }
