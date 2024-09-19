@@ -18,7 +18,7 @@ Voici quelques compétences que j'ai développées :
 ## Contact
 
 - **Email :** valentin.vautier@sts-sio-caen.info
-- **LinkedIn :** [Ton profil LinkedIn]([https://www.linkedin.com/in/valentin-vautier](https://www.linkedin.com/feed/?trk=guest_homepage-basic_nav-header-signin))
+- **LinkedIn :** Mon porfil: [https://www.linkedin.com/in/valentin-vautier](https://www.linkedin.com/feed/?trk=guest_homepage-basic_nav-header-signin)
 
 
 Merci d'avoir visité mon profil GitHub ! N'hésite pas à me contacter si tu veux discuter de projets ou de développement informatique.
