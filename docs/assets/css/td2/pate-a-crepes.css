@@ -1,44 +1,35 @@
 body {
-    background-color: rgb(255, 255, 255);
+    
     color:black;
     font-family : 'Trebuchet MS', sans-serif;
-    margin-right: 40%
-    margin-left:5%; 
+    width: 45%;
+    margin: 0 auto;
+    
+    
 }
-    
-    
 
-p {
-    background-color: rgb(247, 247, 247);
-    text-align: justify;
-    margin-right: 40%;
-    margin-left:5%;
-   
-}
 .BoxCentre {
     background-color: rgb(247, 247, 247);
     text-align: justify;
-    margin-right: 40%;
-    margin-left:5%;
+    margin-left:3%;
     
 }
 
 .Orange {
     color:lightcoral;
-        }
+}
 
 .box {
     background-color: rgb(247, 247, 247);
-    text-align: justify;
-    margin-right: 40%;
-    margin-left:2%;
-   
-}
-.line{
-    height: 1px;
-    background: black;
-    margin-right: 40%;
-    margin-left:5%;
-    
     
 }
+
+ div.bordure {
+        border-bottom:1px solid black;
+            }
+p {
+    background-color: rgb(247, 247, 247);
+
+}
+
+          
