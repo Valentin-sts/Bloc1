@@ -1,0 +1,21 @@
+body {
+    margin: 150px;
+	font-family: "Roboto", system-ui;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-color: peru;
+}
+
+th {
+    background-color: beige;
+}
+
+.left-column {
+    background-color: burlywood;
+}
+
+td {
+    text-align: center;
+}
