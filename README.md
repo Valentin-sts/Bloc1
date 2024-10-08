@@ -1,19 +1,20 @@
-# Bonjour, je suis Valentin Vautier 👋
+# Hello, my name is Valentin Vautier 👋
 
-## À propos de moi
+## About me
 
-Je m'appelle Valentin Vautier, j'ai 18 ans et je suis actuellement étudiant en **BTS SIO (Services Informatiques aux Organisations)** en alternance chez Daltoner. Je suis passionné par l'informatique et j'aime particulièrement découvrir de nouvelles technologies et résoudre des problèmes techniques.
+My name is Valentin Vautier, I'm 18 and I'm currently a **BTS SIO (Services Informatiques aux Organisations)** work-study student at Daltoner. I'm passionate about IT and particularly enjoy discovering new technologies and solving technical problems.
 
-- 🔭 Je débute dans le code malgré une préférence réseau.
-- 🌱 J'apprends actuellement le code.
+- 🔭 I'm just starting out in code despite a network preference.
+- 🌱 I'm currently learning to code.
 
-## Compétences
+## Skills
 
-Voici quelques compétences que j'ai développées :
+Here are some of the skills I've developed:
 
-- **Systèmes et réseaux :** Linux, Windows Server
-- **Outils :** Pack Office, Proxmox, 
+- Systems and networks :** Linux, Windows Server
+- Tools:** Pack Office, Proxmox, 
 
+Translated with DeepL.com (free version)
 
 ## Contact
 
@@ -21,4 +22,4 @@ Voici quelques compétences que j'ai développées :
 - **LinkedIn :** Mon porfil: [https://www.linkedin.com/in/valentin-vautier](https://www.linkedin.com/feed/?trk=guest_homepage-basic_nav-header-signin)
 
 
-Merci d'avoir visité mon profil GitHub ! N'hésite pas à me contacter si tu veux discuter de projets ou de développement informatique.
+Thank you for visiting my GitHub profile! Don't hesitate to contact me if you want to discuss projects or IT development.
