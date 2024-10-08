@@ -5,15 +5,15 @@ body {
 
 table, th, td {
     border: 1px solid black;
-    border-color: peru;
+    border-color: rgb(0, 0, 0);
 }
 
 th {
-    background-color: beige;
+    background-color: #F2F2F2;
 }
 
 .left-column {
-    background-color: burlywood;
+    background-color:#EAE9E6;
 }
 
 td {
