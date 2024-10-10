@@ -1,0 +1,21 @@
+body {
+    margin: 150px;
+	font-family: "Roboto", system-ui;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-color: rgb(0, 0, 0);
+}
+
+th {
+    background-color: #F2F2F2;
+}
+
+.left-column {
+    background-color:#EAE9E6;
+}
+
+td {
+    text-align: center;
+}

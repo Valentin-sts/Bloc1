@@ -1,0 +1,35 @@
+body {
+    margin-left: 250px;
+    margin-right: 250px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+h1 {
+    color: #444444;
+    font-weight:bold;
+}
+
+h2 {
+    color:#3d771e;
+    text-decoration: underline;
+}
+
+h3 {
+    color: rgb(155, 152, 152);
+}
+
+
+.PubMesure {
+    color: pink;
+    font-weight: bold;
+}
+
+ul {
+    color: darkgrey;
+    letter-spacing: 1px;
+}
+
+a {
+    color: #77ccf3;
+}
