@@ -1,4 +1,4 @@
-# 1 - Méthodes GET et POST
+# 1 - Méthodes GET et POST test
 
  	# Différences entre les méthodes HTTP GET et POST
   
