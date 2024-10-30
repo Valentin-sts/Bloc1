@@ -3,7 +3,7 @@ body {
     font-family : 'Trebuchet MS', sans-serif;
 }
 .bigbox{
-    background-color: coral;
+    background-color: #F5683B;
     color: white;
     text-align: center;
     margin-left: 400px;
@@ -12,9 +12,10 @@ body {
 }
 
 .Smallbox{
+    height: 350px;
     text-align: justify;
     display: flex;
-    padding-top: 80px;
+    padding-top: 300px;
     margin-left: 300px;
     margin-right: 300px;
 }
@@ -27,3 +28,6 @@ body {
     background-color: white;
     border-radius: 20px;   
 }  
+
+
+

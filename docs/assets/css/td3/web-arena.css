@@ -1,3 +1,4 @@
+
 body {
     font-family: 'Montserrat', sans-serif;
 }
@@ -63,7 +64,7 @@ body {
 
 main hr {
     width:10%;
-    background-color:#39718c;
+    background-color:#ffffff;
     height:3px;
     border:none;
 }
@@ -73,17 +74,17 @@ h2 {
 }
 
 .button-style {
-    background-color: rgb(192, 205, 224);
+    background-color: rgb(255, 255, 255);
     border-radius: 5%;
     border-style: ridge;
     text-align: center;
     height: 2.8em;
     width:10em;
-    border-color:rgb(224, 213, 213)
+    border-color:rgb(255, 255, 255)
 }
 
 .button-style:hover {
-    background-color: rgb(196, 194, 194);
+    background-color: rgb(255, 255, 255);
 }
 
 /* -------------------- Partners -------------------------*/
@@ -113,7 +114,7 @@ footer {
 .container {
     display:flex;
     justify-content:space-between;
-    background-color: lightblue;
+    background-color: rgb(255, 255, 255);
 }
 
 .licat {
@@ -127,7 +128,7 @@ footer {
 .Categories {
     display:flex;
     flex-direction: column;
-    background-color: lightpink;
+    background-color: rgb(255, 255, 255);
     text-align: center;
 }
 
@@ -144,12 +145,12 @@ footer {
     justify-content: left;
     min-width: 15%;
     max-width: 33%;
-    background-color: lightgreen;
+    background-color: rgb(255, 255, 255);
 }
 
 .RightDiv {
     min-width: 33%;
-    background-color: lightgray;
+    background-color: rgb(255, 255, 255);
     justify-content: left;
 }
 
