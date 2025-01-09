@@ -1,167 +1,96 @@
-/* Réinitialisation des marges et padding pour une base propre */
-* {
+/* Style de base */
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    background-image: url('docs/assets/images/imagedefond.png'); /* Chemin relatif correct */
+    background-size: cover; /* L'image couvre tout l'écran */
+    background-position: center; /* L'image est centrée */
+    background-attachment: fixed; /* L'image reste fixe lors du défilement */
 }
 
-/* Définition de la police et des couleurs de base */
-body {
-    font-family: 'Avenir', sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-    line-height: 1.6;
+/* Couleur des titres */
+h1, h2, h3, h4, h5, h6 {
+    color: white; /* Les titres seront en blanc */
+    text-align: center; /* Centrer les titres */
+    margin: 20px 0; /* Ajouter un espacement autour des titres */
 }
 
-/* Mise en forme du titre principal */
-h1 {
-    text-align: center;
-    font-size: 2.5rem;
-    color: #3a3a3a;
-    margin: 20px 0;
-}
-
-/* Mise en forme du titre secondaire */
-h2 {
-    text-align: center;
-    font-size: 2rem;
-    color: #555;
-    margin-bottom: 15px;
-}
-
-/* Barres de navigation */
-nav {
-    width: 100%;
-    background-color: #333;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-}
-
-/* Liste de navigation */
-.main-nav {
+/* Style du menu de navigation */
+.nav-menu {
     list-style-type: none;
-    display: flex;
-    justify-content: center;
-    background-color: #333;
+    padding: 0;
+    margin: 20px auto; /* Ajouter un peu d'espace autour de la barre de navigation */
+    width: 80%; /* Limiter la largeur de la barre de navigation à 80% de la largeur de l'écran */
+    background-color: rgba(0, 0, 0, 0.7); /* Un fond plus transparent et subtile */
+    border-radius: 8px; /* Coins arrondis pour une meilleure esthétique */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ajout d'une ombre subtile autour de la barre */
 }
 
-/* Élément de navigation */
-.nav-item {
+.nav-menu > .nav-item {
     position: relative;
-    width: 200px;
-    text-align: center;
+    display: inline-block;
+    margin: 0 15px; /* Espacement horizontal entre les éléments du menu */
 }
 
-/* Style du lien de navigation */
-.nav-link {
+.nav-item > a {
     display: block;
-    padding: 15px 20px;
-    color: #fff;
+    padding: 12px 20px;
+    color: white;
     text-decoration: none;
     background-color: #333;
-    border-bottom: 2px solid transparent;
-    font-weight: 600;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 5px; /* Coins arrondis pour les éléments de menu */
+    font-size: 16px;
+    text-align: center;
 }
 
-/* Effet de survol du lien de navigation */
-.nav-link:hover {
-    background-color: #444;
-    color: #ff5733;
+.nav-item > a:hover {
+    background-color: #555;
 }
 
-/* Menu déroulant */
+/* Sous-menus (dropdown) */
 .dropdown {
     display: none;
     position: absolute;
+    background-color: #444;
     top: 100%;
-    left: 0;
-    width: 100%;
-    background-color: #444;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    left: 50%;
+    transform: translateX(-50%);
+    min-width: 200px;
+    padding: 5px 0;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
-/* Apparition du menu déroulant au survol de l'élément */
-.nav-item:hover .dropdown {
-    display: block;
-}
-
-/* Élément de sous-menu */
 .dropdown li {
-    width: 100%;
-    text-align: left;
-}
-
-/* Liens dans le menu déroulant */
-.dropdown a {
-    padding: 10px 20px;
-    color: #fff;
-    text-decoration: none;
     display: block;
-    background-color: #444;
-    font-weight: 400;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    margin: 5px 0;
 }
 
-/* Effet de survol des liens dans le sous-menu */
-.dropdown a:hover {
-    background-color: #ff5733;
-    color: #fff;
-}
-
-/* Structure responsive : menus en ligne pour grands écrans */
-@media (max-width: 768px) {
-    .main-nav {
-        flex-direction: column;
-    }
-
-    .nav-item {
-        width: 100%;
-    }
-
-    .nav-link {
-        padding: 10px 20px;
-    }
-
-    /* Menu déroulant adapté aux petits écrans */
-    .dropdown {
-        position: static;
-        box-shadow: none;
-    }
-
-    .nav-item:hover .dropdown {
-        display: block;
-    }
-}
-
-/* Amélioration des liens de la page principale */
-a {
-    color: #0056b3;
+.dropdown li a {
+    padding: 10px 20px;
+    color: white;
     text-decoration: none;
-    transition: color 0.3s ease;
+    background-color: #444;
+    display: block;
+    border-radius: 3px;
 }
 
-/* Effet au survol des liens principaux */
-a:hover {
-    color: #ff5733;
-    text-decoration: underline;
+.dropdown li a:hover {
+    background-color: #666;
 }
 
-/* Ajout de marges entre les éléments de la page */
-ul {
-    padding-left: 20px;
-    margin-bottom: 20px;
+/* Affichage du sous-menu au survol */
+.nav-item:hover > .dropdown {
+    display: block;
 }
 
-/* Structure des sections pour le contenu */
-section {
-    margin: 30px 0;
+/* Espace entre les items */
+.nav-item + .nav-item {
+    margin-top: 20px;
 }
 
-/* Ajustement des paragraphes */
-p {
-    font-size: 1rem;
-    line-height: 1.8;
-    margin: 15px 0;
+/* Amélioration des sous-menus */
+.nav-item > a {
+    padding: 14px 20px;
 }
