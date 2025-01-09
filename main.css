@@ -1,0 +1,167 @@
+/* Réinitialisation des marges et padding pour une base propre */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Définition de la police et des couleurs de base */
+body {
+    font-family: 'Avenir', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Mise en forme du titre principal */
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #3a3a3a;
+    margin: 20px 0;
+}
+
+/* Mise en forme du titre secondaire */
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+/* Barres de navigation */
+nav {
+    width: 100%;
+    background-color: #333;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Liste de navigation */
+.main-nav {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+}
+
+/* Élément de navigation */
+.nav-item {
+    position: relative;
+    width: 200px;
+    text-align: center;
+}
+
+/* Style du lien de navigation */
+.nav-link {
+    display: block;
+    padding: 15px 20px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #333;
+    border-bottom: 2px solid transparent;
+    font-weight: 600;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Effet de survol du lien de navigation */
+.nav-link:hover {
+    background-color: #444;
+    color: #ff5733;
+}
+
+/* Menu déroulant */
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #444;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Apparition du menu déroulant au survol de l'élément */
+.nav-item:hover .dropdown {
+    display: block;
+}
+
+/* Élément de sous-menu */
+.dropdown li {
+    width: 100%;
+    text-align: left;
+}
+
+/* Liens dans le menu déroulant */
+.dropdown a {
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    background-color: #444;
+    font-weight: 400;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Effet de survol des liens dans le sous-menu */
+.dropdown a:hover {
+    background-color: #ff5733;
+    color: #fff;
+}
+
+/* Structure responsive : menus en ligne pour grands écrans */
+@media (max-width: 768px) {
+    .main-nav {
+        flex-direction: column;
+    }
+
+    .nav-item {
+        width: 100%;
+    }
+
+    .nav-link {
+        padding: 10px 20px;
+    }
+
+    /* Menu déroulant adapté aux petits écrans */
+    .dropdown {
+        position: static;
+        box-shadow: none;
+    }
+
+    .nav-item:hover .dropdown {
+        display: block;
+    }
+}
+
+/* Amélioration des liens de la page principale */
+a {
+    color: #0056b3;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+/* Effet au survol des liens principaux */
+a:hover {
+    color: #ff5733;
+    text-decoration: underline;
+}
+
+/* Ajout de marges entre les éléments de la page */
+ul {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+/* Structure des sections pour le contenu */
+section {
+    margin: 30px 0;
+}
+
+/* Ajustement des paragraphes */
+p {
+    font-size: 1rem;
+    line-height: 1.8;
+    margin: 15px 0;
+}
